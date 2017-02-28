@@ -7,20 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EEF63DA31E6632D100914775 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF63DA21E6632D100914775 /* AppDelegate.m */; };
-		EEF63DA61E6632D100914775 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF63DA51E6632D100914775 /* main.m */; };
-		EEF63DA81E6632D100914775 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEF63DA71E6632D100914775 /* Assets.xcassets */; };
-		EEF63DAB1E6632D200914775 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEF63DA91E6632D200914775 /* MainMenu.xib */; };
+		EEF63DC61E66331A00914775 /* libcs106.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EEF63DBB1E66331A00914775 /* libcs106.a */; };
+		EEF63DC81E66333600914775 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EEF63DC71E66333600914775 /* main.cpp */; };
+		EEF63DCE1E66338F00914775 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEF63DCD1E66338F00914775 /* Cocoa.framework */; };
+		EEF63DD01E66339C00914775 /* libstdc++.6.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EEF63DCF1E66339C00914775 /* libstdc++.6.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EEF63D9E1E6632D100914775 /* SimpleCS106B.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleCS106B.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		EEF63DA11E6632D100914775 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		EEF63DA21E6632D100914775 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EEF63DA51E6632D100914775 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		EEF63DA71E6632D100914775 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		EEF63DAA1E6632D200914775 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		EEF63DAC1E6632D200914775 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEF63DB31E66331A00914775 /* bst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bst.h; sourceTree = "<group>"; };
+		EEF63DB41E66331A00914775 /* cmpfn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cmpfn.h; sourceTree = "<group>"; };
+		EEF63DB51E66331A00914775 /* console.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = console.h; sourceTree = "<group>"; };
+		EEF63DB61E66331A00914775 /* disallowcopy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = disallowcopy.h; sourceTree = "<group>"; };
+		EEF63DB71E66331A00914775 /* extgraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = extgraph.h; sourceTree = "<group>"; };
+		EEF63DB81E66331A00914775 /* genlib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = genlib.h; sourceTree = "<group>"; };
+		EEF63DB91E66331A00914775 /* graphics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = graphics.h; sourceTree = "<group>"; };
+		EEF63DBA1E66331A00914775 /* grid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = grid.h; sourceTree = "<group>"; };
+		EEF63DBB1E66331A00914775 /* libcs106.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcs106.a; sourceTree = "<group>"; };
+		EEF63DBC1E66331A00914775 /* map.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = map.h; sourceTree = "<group>"; };
+		EEF63DBD1E66331A00914775 /* queue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = queue.h; sourceTree = "<group>"; };
+		EEF63DBE1E66331A00914775 /* random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = random.h; sourceTree = "<group>"; };
+		EEF63DBF1E66331A00914775 /* scanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scanner.h; sourceTree = "<group>"; };
+		EEF63DC01E66331A00914775 /* set.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = set.h; sourceTree = "<group>"; };
+		EEF63DC11E66331A00914775 /* simpio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = simpio.h; sourceTree = "<group>"; };
+		EEF63DC21E66331A00914775 /* sound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sound.h; sourceTree = "<group>"; };
+		EEF63DC31E66331A00914775 /* stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stack.h; sourceTree = "<group>"; };
+		EEF63DC41E66331A00914775 /* strutils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = strutils.h; sourceTree = "<group>"; };
+		EEF63DC51E66331A00914775 /* vector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vector.h; sourceTree = "<group>"; };
+		EEF63DC71E66333600914775 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		EEF63DCD1E66338F00914775 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		EEF63DCF1E66339C00914775 /* libstdc++.6.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.tbd"; path = "usr/lib/libstdc++.6.tbd"; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -28,6 +45,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEF63DD01E66339C00914775 /* libstdc++.6.tbd in Frameworks */,
+				EEF63DCE1E66338F00914775 /* Cocoa.framework in Frameworks */,
+				EEF63DC61E66331A00914775 /* libcs106.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +58,7 @@
 			isa = PBXGroup;
 			children = (
 				EEF63DA01E6632D100914775 /* SimpleCS106B */,
+				EEF63DCC1E66338F00914775 /* Frameworks */,
 				EEF63D9F1E6632D100914775 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,22 +74,46 @@
 		EEF63DA01E6632D100914775 /* SimpleCS106B */ = {
 			isa = PBXGroup;
 			children = (
-				EEF63DA11E6632D100914775 /* AppDelegate.h */,
-				EEF63DA21E6632D100914775 /* AppDelegate.m */,
-				EEF63DA71E6632D100914775 /* Assets.xcassets */,
-				EEF63DA91E6632D200914775 /* MainMenu.xib */,
+				EEF63DB21E66331A00914775 /* cs106 */,
+				EEF63DC71E66333600914775 /* main.cpp */,
 				EEF63DAC1E6632D200914775 /* Info.plist */,
-				EEF63DA41E6632D100914775 /* Supporting Files */,
 			);
 			path = SimpleCS106B;
 			sourceTree = "<group>";
 		};
-		EEF63DA41E6632D100914775 /* Supporting Files */ = {
+		EEF63DB21E66331A00914775 /* cs106 */ = {
 			isa = PBXGroup;
 			children = (
-				EEF63DA51E6632D100914775 /* main.m */,
+				EEF63DB31E66331A00914775 /* bst.h */,
+				EEF63DB41E66331A00914775 /* cmpfn.h */,
+				EEF63DB51E66331A00914775 /* console.h */,
+				EEF63DB61E66331A00914775 /* disallowcopy.h */,
+				EEF63DB71E66331A00914775 /* extgraph.h */,
+				EEF63DB81E66331A00914775 /* genlib.h */,
+				EEF63DB91E66331A00914775 /* graphics.h */,
+				EEF63DBA1E66331A00914775 /* grid.h */,
+				EEF63DBB1E66331A00914775 /* libcs106.a */,
+				EEF63DBC1E66331A00914775 /* map.h */,
+				EEF63DBD1E66331A00914775 /* queue.h */,
+				EEF63DBE1E66331A00914775 /* random.h */,
+				EEF63DBF1E66331A00914775 /* scanner.h */,
+				EEF63DC01E66331A00914775 /* set.h */,
+				EEF63DC11E66331A00914775 /* simpio.h */,
+				EEF63DC21E66331A00914775 /* sound.h */,
+				EEF63DC31E66331A00914775 /* stack.h */,
+				EEF63DC41E66331A00914775 /* strutils.h */,
+				EEF63DC51E66331A00914775 /* vector.h */,
 			);
-			name = "Supporting Files";
+			path = cs106;
+			sourceTree = "<group>";
+		};
+		EEF63DCC1E66338F00914775 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EEF63DCF1E66339C00914775 /* libstdc++.6.tbd */,
+				EEF63DCD1E66338F00914775 /* Cocoa.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,8 +174,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EEF63DA81E6632D100914775 /* Assets.xcassets in Resources */,
-				EEF63DAB1E6632D200914775 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,23 +184,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EEF63DA61E6632D100914775 /* main.m in Sources */,
-				EEF63DA31E6632D100914775 /* AppDelegate.m in Sources */,
+				EEF63DC81E66333600914775 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		EEF63DA91E6632D200914775 /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EEF63DAA1E6632D200914775 /* Base */,
-			);
-			name = MainMenu.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		EEF63DAD1E6632D200914775 /* Debug */ = {
@@ -250,10 +281,15 @@
 		EEF63DB01E6632D200914775 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = SimpleCS106B/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SimpleCS106B/cs106",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.AC27.SimpleCS106B;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -262,10 +298,15 @@
 		EEF63DB11E6632D200914775 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = SimpleCS106B/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SimpleCS106B/cs106",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.AC27.SimpleCS106B;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
